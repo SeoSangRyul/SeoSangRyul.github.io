@@ -112,7 +112,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "gogumach82@email.com"
+      url: "mailto:gogumach82@email.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/seosangryul"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
