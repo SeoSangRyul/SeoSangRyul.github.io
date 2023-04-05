@@ -23,7 +23,7 @@ name                     : "서상렬"
 description              : "학습방"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "SeoSangRyul/Comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "seosangryul/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -86,7 +86,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/my_baby.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "서상렬"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://user-images.githubusercontent.com/13990392/229955079-b30771f3-ced4-4e1a-8aa8-fd098c83c046.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "일상이 개발"
   #location         : "Daegu ,Korea"
   email            :
@@ -291,7 +291,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
       mathjax: true
       sidebar_main: true
