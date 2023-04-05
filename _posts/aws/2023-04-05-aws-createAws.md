@@ -100,6 +100,35 @@ EC2에 사용한 이름을 지정한다.
 ![image](https://user-images.githubusercontent.com/13990392/229964454-7ccb43a1-61f6-4e9e-9f60-02494f7c4361.png)
 설정이 완료되었다면 우측의 인스턴스 시작을 클릭한다.
 
+# 3. AWS EC2 인스턴스를 실행한다.
+
+관리자 컨솔로 접속하여 좌측의 인스턴스를 클릭한다.
+
+![image](https://user-images.githubusercontent.com/13990392/229986261-106b181c-123e-4703-9978-148603e530e7.png)
+
+인스턴스가 실행중인지 확인한다.
+
+![image](https://user-images.githubusercontent.com/13990392/229986540-eca7a53b-7682-4e2e-9e42-f381fe9bc9bc.png)
+
+실행중이 아니라면 인스턴스 시작을 클릭 후 인스턴스 상태를 확인한다.
+
+
+# 4. AWS EC2 인스턴스에 SSH 접속한다.
+
+![image](https://user-images.githubusercontent.com/13990392/229986685-68ab22f7-bd50-4919-8459-c23cedfc1bd3.png)
+
+인스턴스를 선택 후 연결을 클릭한다.
+
+![image](https://user-images.githubusercontent.com/13990392/229987008-accda453-efa4-4d5d-a7b0-2d8c994838ea.png)
+
+퍼블릭 IP 주소를 통해 외부에서 접속이 가능하며 연결을 클릭하여 접속한다.
+- 페어키를 설정하였다면 저장된 PC에서만 접속이 가능하다.
+- 설정 단계에서 IP를 지정하였다면 해당 IP에서만 접속이 가능하다.
+
+![image](https://user-images.githubusercontent.com/13990392/229987411-37c0f3b9-508d-4ee2-97b3-c3562cece70b.png)
+
+접속 후 터미널 화면이 출력 된다면 완료
+
 ***
     개인 공부 기록용 블로그입니다. 오류나 틀린 부분이 있을 경우 
     댓글 또는 메일로 알려주시면 감사하겠습니다.
