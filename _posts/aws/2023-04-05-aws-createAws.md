@@ -36,6 +36,7 @@ AWS계정 새로 만들기 클릭
 
 
 # 2. AWS EC2 생성한다.
+## 라이센스 확인
 
 아래의 주소를 통해 프리티어 라이센스를 확인한다.
 
@@ -44,6 +45,7 @@ AWS프리티어 : `aws.amazon.com/ko/free'
 - 프리티어는 주기적으로 제품이나 조건이 변하니 확인하고 만들어야함
 <br>
 
+## EC2 선택
 ![image](https://user-images.githubusercontent.com/13990392/229958755-c4442ead-b62c-4850-a3c1-09ebadabd4f5.png)
 
 프리 티어 유형
@@ -63,6 +65,9 @@ Amazon EC2 시작하기를 클릭한다.
 컨솔화면화면에서 좌측메뉴의 EC2대시보드를 클릭하고, 본문의 인스턴스 시작을 클릭한다.
 
 ![image](https://user-images.githubusercontent.com/13990392/229960582-360060e2-22e8-4ce0-bd6d-3476594b8c63.png)
+
+
+## EC2 인스턴스 설정
 
 EC2에 사용할 이름을 지정한다.
 
