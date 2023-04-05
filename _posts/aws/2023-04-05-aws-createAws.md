@@ -63,16 +63,19 @@ Amazon EC2 시작하기를 클릭한다.
 컨솔화면화면에서 좌측메뉴의 EC2대시보드를 클릭하고, 본문의 인스턴스 시작을 클릭한다.
 
 ![image](https://user-images.githubusercontent.com/13990392/229960582-360060e2-22e8-4ce0-bd6d-3476594b8c63.png)
-EC2에 사용한 이름을 지정한다.
+
+EC2에 사용할 이름을 지정한다.
 
 ![image](https://user-images.githubusercontent.com/13990392/229960773-4e33ed4e-e8c3-4048-ac8a-13498efb527b.png)
-사용한 OS를 지정한다.
+
+사용할 OS를 지정한다.
 - 프리티어 사용가능을 반드시 확인한다.
 - Ubuntu나 RedHat의 경우 자료가 많아서 장애처리 및 각종 설치가 편리하지만 추가 요금이 발생한다.
 - 글 작성 시점기준 Amazon linux 2023이 반영되어서 그것을 실습하기로 한다.
 
 ![image](https://user-images.githubusercontent.com/13990392/229961304-7a61b45f-98e4-4375-9f83-ce7af5d65e5a.png)
 ![image](https://user-images.githubusercontent.com/13990392/229961695-be917010-4658-42e2-b14b-80d21c8df48f.png)
+
 인스턴스 유형을 지정한다.
  - 프리 티어 사용 가능을 확인한다.
  - 인스턴스 유형에 따라 성능과 비용이 달라진다.
@@ -84,20 +87,24 @@ EC2에 사용한 이름을 지정한다.
 
 
 ![image](https://user-images.githubusercontent.com/13990392/229963120-dad5179c-1189-4afa-b092-8818d9661ae5.png)
+
 키페어는 개발이나 운영을 위해 SSH접속을 위해 로컬PC 저장된다.
 해킹위험에서 보호하기 위해서 키페어 생성을 권장하며 발급시 관리에 유의해야한다.
 
 ![image](https://user-images.githubusercontent.com/13990392/229963543-77c569a9-0d83-45b1-9940-392429b60d4a.png)
+
 네트워크 설정은 기본 값을 설정해도 되지만 AWS해킹 위험에서 보호 하고자 SSH트래픽을 자주사용하는 PC를 고정IP로 사용하는 것이 안전하다.
 
 
 ![image](https://user-images.githubusercontent.com/13990392/229964162-803607a1-4c80-470c-ae9e-fd58478b3738.png)
+
 스토리지 용량을 구성한다.
 - 1년 프리티어 사용시 GP3타입의 30GB까지 무료
 - 용량에 비례하여 프리티어 종료와 동시에 요금이 발생하니 주의 필요
 
 
 ![image](https://user-images.githubusercontent.com/13990392/229964454-7ccb43a1-61f6-4e9e-9f60-02494f7c4361.png)
+
 설정이 완료되었다면 우측의 인스턴스 시작을 클릭한다.
 
 # 3. AWS EC2 인스턴스를 실행한다.
